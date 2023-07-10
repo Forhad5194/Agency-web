@@ -207,3 +207,64 @@
     cursor: pointer;
 }
 /* Service info part css end  */
+/* blog part css part start  */
+.blog-container{
+    width: 80%;
+    margin: auto;
+}
+.blog-info h6{
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif ;
+    color: black;
+    text-align: center;
+    margin-top: 30px ; 
+
+}
+.blog-info h6 span{
+    color: #F94C30;
+}
+.blog-info p{
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+.blog-card{
+    width: 200px;
+    height: 350px;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 10px;
+   
+    
+}
+.blog-cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.b-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.b-card h5{
+    font-size: 15px;
+    font-weight: 400;   
+    font-family:'Roboto Slab', serif ;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.b-card p{
+    font-size: 10px;
+    font-weight: 400;   
+    font-family:'Roboto Slab', serif ;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+/* blog part css part  End   */
