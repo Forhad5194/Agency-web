@@ -268,3 +268,43 @@
     margin-top: 10px;
 }
 /* blog part css part  End   */
+/* Footer part start  */
+.footer-container{
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.f-info{
+    font-size: 30px;
+    font-weight: 400;   
+    font-family:'Roboto Slab', serif ;
+    color: rgb(255, 255, 255);
+}
+.usfull-link a{
+    color: #ffffff;
+    display:block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;   
+    font-family:'Roboto Slab', serif ;
+    margin-top: 25px;
+    
+    
+}
+
+.f-icon{
+    list-style: none;
+    font-size: 30px;
+    color: #000000;
+}
+.social-link{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+/* footer part end  */
