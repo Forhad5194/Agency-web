@@ -39,7 +39,51 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
+    
+}
+.banner-info{
+    text-align: center;
+    padding-top: 25%;
+}
+.banner-info h2{
+   font-size: 70px;
+   font-weight: 900;
+   font-family: 'Roboto Slab', serif;
+   color: white;
+}
+.banner-info h2 span{
+    color: #F94C30;
+}
+.banner-info p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+
+}
+.A-btn{
+    background-color: #F94C30;
+    padding: 15px 15px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif ;
+    color: #ffffff;
+}
+.A-bt{
+    background-color: #ffffff;
+    padding: 15px 15px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif ;
+    cursor: pointer;
 }
 
 /* Banner part css end */
