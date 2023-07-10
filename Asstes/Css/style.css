@@ -85,5 +85,97 @@
     font-family: 'Roboto Slab', serif ;
     cursor: pointer;
 }
-
 /* Banner part css end */
+/* services part css start  */
+.services-container{
+    height: 100vh;
+    background-image: url(../img/image/footer-bg.png),
+    linear-gradient(rgb(0, 0, 0,0.9),rgb(0, 0, 0,1));
+    background-blend-mode:overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.service-info{
+    padding: 20px;
+   
+}
+.s-btn{
+    background-color: #F94C30;
+    padding: 15px 20px;
+    border: none;
+    margin-top: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif ;
+    color: #ffffff;
+}
+.s-text{
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    /* width: 50%; */
+    margin-top: 20px;
+}
+.s-text p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    
+}
+.in-line{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+.c-img{
+    width: 70px;
+}
+.all-cards{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+.autor-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  
+    
+}
+.profile-img{
+    border-right: 2px solid red ;
+    padding-right: 20px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  
+   
+}
+.profile-img{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* Services part part css end  */
