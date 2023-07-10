@@ -1,0 +1,45 @@
+/* Common css part start  */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* Common css part  End  */
+/* logo and nav bar part start  */
+.nav-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: gray;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-bar li:hover{
+    color: #F94C30;
+    
+}
+/* logo and nav bar part  End   */
+/* Banner part css start  */
+.banner-container{
+    height: 100vh;
+    background-image: url(../img/image/1bg.jpg),
+    linear-gradient(rgb(0, 0, 0,0.3),rgb(0, 0, 0,0.4));
+    background-blend-mode:overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/* Banner part css end */
